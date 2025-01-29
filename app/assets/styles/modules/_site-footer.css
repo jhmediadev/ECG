@@ -1,0 +1,323 @@
+/*=================FOOTER===================*/
+
+@media screen and (max-width: 410px) {
+    .footer {
+      /* border-top: 1px solid #afafaf54; */
+      background-color: #ffff;
+      padding: 7px 0;
+      width: 110%;
+      display: block;
+     
+    }
+  
+    .footer h4 {
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .footer__brand p {
+      margin-top: 80px;
+      margin-left: 10px;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  
+    .footer-col {
+      margin: 10px 15px 10px 0;
+    }
+  
+    .new--footer-links {
+      text-align: center;
+      display: block;
+      font-size: 2rem;
+      text-decoration: none;
+      list-style-type: none;
+      margin: 20px 20px 50px 0;
+    }
+  
+    .new--footer-links li {
+      margin-bottom: 10px;
+      color: var(--color-links);
+    }
+  
+    .social-links i {
+      font-size: 2.5rem;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      left: 60px;
+      margin: 10px 1px 10px 1px;
+      padding-top: 1px;
+      padding-right: -10px;
+    }
+  
+    .social-links > a > i {
+      height: 60px;
+      width: 60px;
+    }
+  
+    .contact-icon {
+      font-size: 3rem;
+      text-align: center;
+      display: inline-block;
+      margin: 10px 0px 10px 175px;
+      padding-top: 0.5rem;
+    }
+  
+    h4.contact {
+      margin-left: -2px;
+    }
+  
+    .contact-number {
+      margin: 2px 0 0 120px;
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 1324px) {
+    .footer {
+      /* border-top: 1px solid #afafaf54; */
+      background-color: #ffff;
+      padding: 7px 0;
+      width: 110%;
+    }
+  
+    /* .container2 {
+      max-width: 1970px;
+      background-color: none;
+      margin: auto;
+      justify-items: center;
+    } */
+  
+    .footer__section {
+      display: inline-block;
+    }
+  
+    .footer2 h4 {
+      margin-left: 3.2rem;
+    }
+  
+    .footer-row {
+      display: flex;
+    }
+  
+    .footer-col {
+      width: 25%;
+      padding: 0 10px;
+      margin: 0 10px;
+    }
+  
+    .ipad-left {
+      width: 5%;
+    }
+  
+    .ipad-right {
+      width: 5%;
+    }
+  
+    .ipad-soc-col {
+      width: 30%;
+    }
+  
+    .footer-col-3 {
+      width: 20%;
+      padding: 0;
+      margin: 0 10px 0 2px;
+    }
+  
+    .footer__brand p {
+      margin-top: 20rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  
+    .new--footer-links {
+      font-size: 2rem;
+      text-decoration: none;
+      list-style-type: none;
+      margin-top: 2rem;
+    }
+  
+    .new--footer-links li {
+      margin-top: 1rem;
+    }
+    .new--footer-links a {
+      color: var(--color-links);
+      margin-left: -0.5rem;
+    }
+  
+    .new--footer-links a:hover {
+      text-decoration: none;
+      border-bottom: 2px solid var(--color-background);
+    }
+  
+    .social-links a {
+      border-radius: 50%;
+      background-color: #ffffff;
+      border: 0.5px solid #6998f046;
+      font-size: 2.5rem;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      display: inline-block;
+      margin: 10px 15px 10px 20px;
+      padding-top: 0.6rem;
+    }
+  
+    .social-links a:hover {
+      background-color: #85b6ffc9;
+      transition: 0.5s;
+    }
+  
+    .contact-icon {
+      border-radius: 50%;
+      background-color: #ffffff;
+      border: 0.5px solid #6998f046;
+      font-size: 3rem;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      display: inline-block;
+      margin: 10px 150px 10px 60px;
+      padding-top: 0.5rem;
+    }
+  
+    h4.contact {
+      margin-left: 2.5rem;
+    }
+  
+    .contact-number {
+      margin: 2px 0 0 15px;
+      font-size: 2rem;
+    }
+  
+    div > h4.follow_us {
+      margin-left: 6px;
+      text-align: center;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .footer {
+      /* border-top: 1px solid #afafaf54; */
+      background-color: #ffff;
+      padding: 7px 0;
+      width: 110%;
+    }
+  
+    /* .container2 {
+      max-width: 1970px;
+      background-color: none;
+      margin: auto;
+      justify-items: center;
+    } */
+  
+    .footer__section {
+      display: inline-block;
+    }
+  
+    .footer2 h4 {
+      margin-left: 3.2rem;
+    }
+  
+    .footer-row {
+      display: flex;
+    }
+  
+    .footer-col {
+      width: 40%;
+      padding: 0 10px;
+      /* margin: 0 10px; */
+      margin: 0 0 0 20px;
+    }
+  
+    .footer-col-3 {
+      width: 20%;
+      padding: 0;
+      margin: 0 2px 0 0px;
+    }
+  
+    .footer-col-4 {
+      width: 20%;
+    }
+  
+    .footer-col-5 {
+      width: 25%;
+    }
+  
+    .footer__brand p {
+      margin-top: 10rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  
+    .new--footer-links {
+      font-size: 2rem;
+      text-decoration: none;
+      list-style-type: none;
+      margin-top: 2rem;
+    }
+  
+    .new--footer-links li {
+      margin-top: 1rem;
+    }
+    .new--footer-links a {
+      color: var(--color-links);
+      margin-left: -0.5rem;
+    }
+  
+    .new--footer-links a:hover {
+      text-decoration: none;
+      border-bottom: 2px solid var(--color-background);
+    }
+  
+    .social-links a {
+      border-radius: 50%;
+      background-color: #ffffff;
+      border: 0.5px solid #6998f046;
+      font-size: 2.5rem;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      display: inline-block;
+      margin: 10px 5px 10px 20px;
+      padding-top: 0.6rem;
+    }
+  
+    .social-links a:hover {
+      background-color: #85b6ffc9;
+      transition: 0.5s;
+    }
+  
+    .contact-icon {
+      border-radius: 50%;
+      background-color: #ffffff;
+      border: 0.5px solid #6998f046;
+      font-size: 3rem;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      display: inline-block;
+      margin: 10px 15px 10px 110px;
+      padding-top: 0.5rem;
+    }
+  
+    h4.contact {
+      margin-left: 7.5rem;
+    }
+  
+    .contact-number {
+      margin: 2px 0 0 70px;
+      font-size: 2rem;
+    }
+  
+    div > h4.follow_us {
+      margin-left: 25px;
+      text-align: center;
+      width: 80%;
+    }
+  }
+  

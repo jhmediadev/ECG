@@ -1,0 +1,29 @@
+/*=================BLOCK==================*/
+
+  
+  .block {
+    padding: 4rem 0.05rem;
+  }
+  
+  .block__heading {
+    margin: 0;
+  }
+  
+  .block__header__left {
+    text-align: left;
+  }
+  
+  .block__header__center {
+    text-align: center;
+  }
+  
+  .block--blue {
+    background-color: var(--color-headings);
+  }
+  
+  .block--white {
+    background-color: var(--color-body);
+    margin: auto;
+  }
+  
+  

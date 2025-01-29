@@ -1,0 +1,82 @@
+/*-- 01 TYPOGRAPHY SYSTEM
+
+Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weight
+
+
+- Line heights
+Default: 1
+
+
+
+-- 02 COLORS
+Primary: 
+
+-Tints:
+-Shades:
+-Accents:
+-Greys: #555
+
+
+--05 SHADOWS
+
+
+--06 BORDER-RADIUS
+
+
+--07 WHITESPACE
+
+
+
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+.main-container {
+  max-width: 1800px;
+  margin: 10px 50px 0 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 410px) {
+  .main-container {
+    margin: 20px 5px 0 5px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .main-container {
+    margin: 10px 5px 0 5px;
+    width: 100%;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-body);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 99%;
+  margin: 0;
+}
+
+li {
+  color:black;
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

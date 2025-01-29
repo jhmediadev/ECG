@@ -1,0 +1,200 @@
+/*=================NAV===================*/
+
+.nav {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -3rem 0 -3rem -3rem;
+    padding-top: 3rem;
+    padding-right: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .logo {
+    width: 240px;
+    height: 70px;
+    padding: 10px 0 0 20px;
+    margin-left: 15px;
+    margin-right: -20px;
+    margin-top: 30px;
+  }
+  
+  .slogan {
+    margin-top: 1rem;
+    position: relative;
+    left: 12px;
+    font-size: 1.6rem;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  .menu--span {
+    justify-content: right;
+    margin-left: -22rem;
+  }
+  
+  .menu--item {
+    margin-top: 35px;
+    margin-left: 15rem;
+    padding-right: 0.5rem;
+    width: 40px;
+    height: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .nav__list {
+    margin: 0;
+  }
+  
+  .nav__item {
+    padding: 1.8rem 10.5rem;
+  }
+  
+  .nav__item > a {
+    color: var(--color-primary);
+    font-size: 2rem;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  .nav__item > a:hover {
+    border-bottom: 1px solid #000;
+    transition: 1s;
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 1400px) {
+    .nav {
+      background: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: -3rem;
+      padding: 6rem 4rem 1rem;
+      width: 100%;
+    }
+  
+    .logo {
+      width: 350px;
+      height: 99px;
+      padding: 0.5rem 0 0 0;
+      margin-left: 10rem;
+      margin-right: 5rem;
+    }
+  
+    .slogan {
+      margin-top: 1rem;
+      position: relative;
+      left: 122px;
+      font-size: 1.5rem;
+    }
+  
+    .logo:hover {
+      cursor: pointer;
+    }
+  
+    .menu--span {
+      justify-content: right;
+      margin-left: -2rem;
+    }
+  
+    .menu--item {
+      padding-right: 2rem;
+      width: 60px;
+      height: 40px;
+      flex-wrap: wrap;
+      margin-right: 5rem;
+      margin-left: -10rem;
+      margin-top: 3rem;
+    }
+  
+    .nav__item {
+      padding: 1.8rem 0.5rem;
+      margin-right: -15rem;
+    }
+  
+    .nav__list {
+      margin-left: 20rem;
+    }
+  
+    div > ul .nav__item {
+      position: relative;
+      right: 90px;
+    }
+  }
+  
+  .nav__list > li > a:hover {
+    border-bottom: 1px solid var(--color-background);
+    transition: 100ms;
+    text-decoration: none;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: -8rem 0 0 0.5rem;
+      margin: -3rem;
+      padding: 3rem;
+      position: relative;
+      left: -100px;
+      width: 100%;
+    }
+  
+    .logo {
+      width: 240px;
+      height: 70px;
+      margin-top: 1.5rem;
+      margin-right: -110px;
+      padding: 0.5rem 0 0 0;
+    }
+  
+    .slogan {
+      float: right;
+      position: relative;
+      top: 20px;
+      left: 130px;
+      font-size: 1.8rem;
+    }
+  
+    .collapsible__content {
+      display: flex;
+      max-height: 100%;
+    }
+  
+    .menu--item {
+      display: none;
+    }
+  
+    .nav__list {
+      margin: 1rem;
+      width: auto;
+      display: flex;
+      font-size: 1.6rem;
+      position: relative;
+      left: 380px;
+      /* border-bottom: 0.5px solid var(--color-background); */
+    }
+  
+    .nav__list > li > a:hover {
+      border-bottom: 2px solid var(--color-background);
+      transition: 1ms;
+      text-decoration: none;
+    }
+  
+    .nav__item > a {
+      color: var(--color-primary);
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+  
+    .nav__item {
+      padding: 1.8rem 0.5rem;
+      margin-right: 8rem;
+    }
+  }
+  
