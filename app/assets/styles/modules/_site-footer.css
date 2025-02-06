@@ -74,6 +74,11 @@
       margin: 2px 0 0 120px;
       font-size: 2rem;
     }
+
+    icon {
+      border-radius: 99px;
+      border: solid 1px dodgerblue
+    }
   }
   
   @media screen and (min-width: 500px) and (max-width: 1324px) {
@@ -198,6 +203,11 @@
       text-align: center;
       width: 80%;
     }
+
+    icon {
+      border-radius: 99px;
+      border: solid 1px dodgerblue
+    }
   }
   
   @media screen and (min-width: 1024px) {
@@ -318,6 +328,11 @@
       margin-left: 25px;
       text-align: center;
       width: 80%;
+    }
+
+    icon {
+      border-radius: 99px;
+      border: solid 1px dodgerblue
     }
   }
   

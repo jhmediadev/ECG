@@ -64,18 +64,18 @@ class Footer extends HTMLElement {
         </div>
         <div class="">
         <div>
-            <h3>Connect with us on Social Media</h3>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <p>Connect with us on Social Media</p>
+            <a href="#"><i class="fa-brands fa-facebook" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px"></i></a>
+            <a href="#"><i class="fab fa-instagram icon" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter icon" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px"></i></a>
+            <a href="#"><i class="fab fa-linkedin icon" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px"></i></a>
             
           </div>
         <div>
         <div class="">
         <div>
-            <h3>Contact Us</h3>
-            <a href="#"><i class="fa-solid fa-phone" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 10px"></i></a>
+            <p>Contact Us</p>
+            <a href="#"><i class="fa-solid fa-phone" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px; margin-bottom: 20px"></i></a>
             <p>407-555-5555</p>
           </div>
         <div>
