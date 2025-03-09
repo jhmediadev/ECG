@@ -50,37 +50,37 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <footer class="footer">
-      <hr>
-      <div class="">
-        <div class="">
-            <ul class="">  
-              <li><a class="" href="">About Us</a></li>
-              <li><a class="">Portfolio</a></li>
-              <li><a class="">Our Process</a></li>
-              <li><a class="">Contact Us</a></li>
-              <li><a class="">Careers</a></li>
-            </ul>  
-          </div>  
-        </div>
-        <div class="">
-        <div>
-            <p>Connect with us on Social Media</p>
-            <a href="#"><i class="fa-brands fa-facebook" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px"></i></a>
-            <a href="#"><i class="fab fa-instagram icon" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px"></i></a>
-            <a href="#"><i class="fa-brands fa-x-twitter icon" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px"></i></a>
-            <a href="#"><i class="fab fa-linkedin icon" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px"></i></a>
-            
+      <div class="grid grid--1x4">
+        <a href="/"><img src="../../images/EclipseLogo.png"></a>
+
+        <div class="footer-box">
+          <div class="footer-link-list">  
+            <ul>  
+              <p class="">LINKS</p>
+              <li><a class="footer-link-color" href="#">About Us</a></li>
+              <li><a class="footer-link-color href="#">Portfolio</a></li>
+              <li><a class="footer-link-color href="#">Our Process</a></li>
+              <li><a class="footer-link-color href="#">Contact Us</a></li>
+              <li><a class="footer-link-color href="#">Careers</a></li>
+            </ul>
           </div>
+        </div>    
         <div>
-        <div class="">
-        <div>
-            <p>Contact Us</p>
-            <a href="#"><i class="fa-solid fa-phone" style="border: solid 1px dodgerblue; border-radius: 100px; padding: 20px; margin-bottom: 20px"></i></a>
-            <p>407-555-5555</p>
-          </div>
-        <div>
-          <p>Copyright &copy; 2024 Eclipse Construction Group. All Rights Reserved.</p>
+            <p>CONNECT WITH US ON SOCIAL MEDIA</p>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook icon" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px"></i></a>
+            <a href="https://x.com/?lang=en" target="_blank"><i class="fa-brands fa-x-twitter icon" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin icon" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px"></i></a>
         </div>
+        <div>
+            <p>CONTACT</p>
+            <p><i class="fa-solid fa-phone" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px; margin-bottom: 20px"></i></p>
+            <p><a href="tel:407-555-5555">407-555-5555</a></p>
+        </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2024 Eclipse Construction Group. All Rights Reserved.</p>
       </div>
     </footer>
 

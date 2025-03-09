@@ -1,9 +1,15 @@
   /*=================GRID===================*/
   .grid {
     display: grid;
+    width: 80%;
   }
   
-  @media screen and (min-width: 700px) {
+  .grid--1x4 {
+    grid-template-columns: repeat(4, 1fr);  
+  }
+
+
+  /* @media screen and (min-width: 700px) {
     .grid--1x2 {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -23,4 +29,4 @@
     .grid--1x5 {
       grid-template-columns: repeat(5, 1fr);
     }
-  }
+  } */
