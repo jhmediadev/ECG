@@ -26,7 +26,7 @@ class Header extends HTMLElement {
                                 <a href="#">RETAIL / STRIP CENTERS</a>
                                 <a href="#">RESIDENTIAL PROJECTS</a>
                             </ul>
-                    </div>    
+                    </div>   
                 <li class="nav__item"><a href="#">PORTFOLIO</a></li>
                 <li class="nav__item"><a href="#">ABOUT</a></li>
                 <li class="nav__item"><a href="#">CONTACT US</a></li>
