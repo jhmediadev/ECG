@@ -2,11 +2,14 @@
     --color-primary: #171717;
     --color-secondary: #ececee;
     --color-background: #75a0f1;
+    --color-background-dark: #4e6da5;
     --color-headings: #3e3e3e;
     --color-body: #ffff;
     --color-heading: #e4e4e4;
     --color-links: #3e3e3e;
-    
+    --border-radius: 0.80rem;
+    --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-2: 0 1px 20px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
   
 

@@ -1,0 +1,23 @@
+.main__logo {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    }
+
+.main-slogan {
+    text-align: center;
+    line-height: 2;
+    font-size: 2rem;
+    }
+
+.quote {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 50px;
+    
+}
+
+.call-to-action {
+    text-align: center;
+    font-size: 2rem;
+}

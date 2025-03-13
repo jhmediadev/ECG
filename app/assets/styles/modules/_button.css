@@ -1,0 +1,21 @@
+.large-button {
+    background-color: var(--color-background);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 80px;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.large-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.large-button:hover {
+    background-color: var(--color-background-dark);
+    cursor: pointer;
+    transition: .5s;
+}
