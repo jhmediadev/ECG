@@ -4,13 +4,13 @@
 /*=================DROPDOWN MENU===================*/
 @media screen and (max-width: 440px) {
     .dropmenu {
+      flex-wrap: wrap;
       font-size: 2rem;
+      height: 40px;
       margin-top: 0.95rem;
       margin-left: 5.17rem;
       padding-right: 1rem;
       width: 40px;
-      height: 40px;
-      flex-wrap: wrap;
     }
   
     .dropcontent {
@@ -20,13 +20,13 @@
   
   @media screen and (min-width: 500px) and (max-width: 800px) {
     .dropmenu {
+      flex-wrap: wrap;
       font-size: 2rem;
+      height: 40px;
       margin-top: 1rem;
       margin-left: 0.17rem;
       padding-right: 1rem;
       width: 40px;
-      height: 40px;
-      flex-wrap: wrap;
     }
   
     .dropcontent {
@@ -49,33 +49,33 @@
   
     .dropmenu a:hover + .dropcontent, .dropcontent:hover{
       display: block;
+      background-color: #f5f3f3;
+      box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
       position: absolute;
       min-width: 100px;
       top: 3.8rem;
-      right: -10rem;
-      background-color: #f5f3f3;
-      box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+      right: -6rem;
       z-index: 1;
 
     }
   
     .dropcontent a {
       display: block;
+      float: left;
       color: var(--color-primary);
       font-family: Arial, Helvetica, sans-serif;
+      margin: 10px 1px 10px -39px;
       min-height: 10px;
-      min-width: 255px;
+      min-width: 251px;
       padding: 8px 0px 10px 8px;
-      margin: 10px -10px 10px -35px;
       text-align: left;
-      float: left;
     }
     
   
     .dropcontent a:hover {
       background-color: var(--color-background);
-      text-decoration: none;
       color: #fff;
+      text-decoration: none;
       transition: 0.3s;
     }
   }

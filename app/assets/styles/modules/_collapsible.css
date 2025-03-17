@@ -15,16 +15,16 @@
   }
   
   .chevron {
-    width: 30px;
     height: 30px;
+    width: 30px;
     transition: 0.2s;
   }
   
   .collapsible__content {
+    color: var(--color-primary);
     max-height: 0;
     overflow: hidden;
     transition: all 0.2s;
-    color: var(--color-primary);
   }
   
   .collapsible--expanded .chevron {
@@ -47,18 +47,18 @@
     }
   
     .chevron {
-      width: 30px;
       height: 30px;
       transition: 0.2s;
+      width: 30px;
     }
   
     .collapsible__content {
-      max-height: 0;
-      overflow: hidden;
-      transition: all 0.2s;
       color: var(--color-primary);
       margin-right: 25rem;
+      max-height: 0;
+      overflow: hidden;
       padding-right: 10rem;
+      transition: all 0.2s;
     }
   
     .collapsible--expanded .chevron {
@@ -66,19 +66,19 @@
     }
   
     .collapsible--expanded .collapsible__content {
-      max-height: 100vh;
       float: left;
+      max-height: 100vh;
     }
   }
   
   @media screen and (min-width: 1024px) {
     .collapsible__content {
-      max-height: 0;
-      overflow: var(--color-primary);
-      transition: all 0.2s;
       color: var(--color-primary);
       margin-right: 8rem;
+      max-height: 0;
+      overflow: var(--color-primary);
       padding-right: 8rem;
+      transition: all 0.2s;
     }
   }
   

@@ -5,19 +5,176 @@
 
 .main-slogan {
     text-align: center;
-    line-height: 2;
     font-size: 2rem;
+    line-height: 2;
     }
 
-.quote {
+.customer-quotes {
     text-align: center;
     font-size: 1.5rem;
     font-style: italic;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;  
 }
 
 .call-to-action {
     text-align: center;
+    line-height: 2;
     font-size: 2rem;
+}
+
+.home-main-contact-us {
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+.construction-projects {
+    margin: 10rem 0 0 9rem;
+}
+
+.construction-projects img {
+  height: 300px; 
+  width: 450px;
+}
+
+
+@media screen and (min-width: 50px) and (max-width: 388px) {
+    
+    .container-medium {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .card {
+        width: 100%;
+        padding: 0;
+    }
+
+      .main-slogan {
+        font-size: 1.8rem;
+    }
+
+    .construction-projects {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .construction-projects img {
+        height: 200px; 
+        width: 250px;
+      }
+
+
+    .construction-projects .section-vertical-margin {
+        margin: 0 0 0 3.9rem;
+    }
+    
+    .construction-projects h1 {
+        font-size: 3.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 390px) and (max-width: 700px) {
+
+    .container-medium {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .construction-projects .card {
+        width: 80%;
+        padding: 0;
+    }
+
+    .main-slogan {
+        font-size: 3.5rem;
+    }
+    
+    .construction-projects {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .construction-projects img {
+        height: 300px; 
+        width: 450px;
+      }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 799px) {
+
+    .card {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .construction-projects .card {
+        width: 95%;
+    }
+
+    .main-slogan {
+        font-size: 3.5rem;
+    }
+
+    .construction-projects {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 1rem 0 0 7rem;
+    }
+
+    .construction-projects img {
+        height: 200px; 
+        width: 300px;
+      }
+    
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+
+    .card {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .construction-projects .card {
+        width: 95%;
+    }
+
+    .main-slogan {
+        font-size: 3.5rem;
+    }
+
+    .construction-projects {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 1rem 0 0 10.5rem;
+    }
+
+    .construction-projects img {
+        height: 200px; 
+        width: 300px;
+      }
+    
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1800px) {
+    .main-slogan {
+        font-size: 3.5rem;
+    }
 }

@@ -1,4 +1,37 @@
 /*=============TYPOGRAPHY======================*/
+/*-- 01 TYPOGRAPHY SYSTEM
+
+Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weight
+
+
+- Line heights
+Default: 1
+
+
+
+-- 02 COLORS
+ Primary: 
+
+-Tints:
+-Shades:
+-Accents:
+-Greys: #555
+
+
+--05 SHADOWS
+
+
+--06 BORDER-RADIUS
+
+
+--07 WHITESPACE
+*/
+
+
+
 h1,
 h2,
 h3 {
@@ -21,9 +54,12 @@ h3 {
 
 p {
   color: var(--color-primary);
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
+
 @media screen and (min-width: 1024px) {
   h1,
   h2,

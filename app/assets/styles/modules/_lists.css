@@ -1,8 +1,8 @@
 /*=================LISTS===================*/
 
 .list {
-    list-style: none;
-    padding-left: 0;
-    color: var(--color-primary);
-  }
+  color: var(--color-primary);
+  list-style: none;
+  padding-left: 0;
+}
   

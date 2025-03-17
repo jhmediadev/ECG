@@ -17,7 +17,7 @@ class Header extends HTMLElement {
             <ul class="list nav__list">
                 <li class="nav__item"><a href="../index.html">HOME</a></li>
                     <div class="dropmenu">
-                        <a class="list nav__item dropmenu" href="#">SERVICES</a>
+                        <a class="list nav__item nav__item__services dropmenu" href="#">SERVICES</a>
                             <ul class="dropcontent">
                                 <a href="#">DESIGN</a>
                                 <a href="#">INDUSTRIAL BUILDINGS</a>
