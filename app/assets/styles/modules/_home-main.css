@@ -45,6 +45,12 @@
         padding: 0;
     }
 
+    .container-center {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 3.2rem;
+    }
+
     .card {
         width: 100%;
         padding: 0;
@@ -76,6 +82,22 @@
         font-size: 3.5rem;
     }
     
+    .our-clients {
+        font-size: 2.9rem;
+        margin: 6rem 0 3rem 0;
+    }
+
+    .call-to-action {
+        font-size: 2.1rem;
+        line-height: 1.5;
+        margin-bottom: 100px;
+    }
+
+    .home-main-contact-us {
+        margin-top: 100px;
+    }
+
+
 }
 
 @media screen and (min-width: 390px) and (max-width: 700px) {
@@ -93,6 +115,7 @@
 
     .main-slogan {
         font-size: 3.5rem;
+
     }
     
     .construction-projects {
@@ -107,6 +130,8 @@
         height: 300px; 
         width: 450px;
       }
+
+
 
 }
 
@@ -138,6 +163,26 @@
         width: 300px;
       }
     
+    .our-clients {
+        font-size: 3.5rem;
+    }
+
+    .call-to-action {
+        font-size: 2.5rem;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .home-main-contact-us {
+        margin-top: -20px;
+    }  
+    
+    .container-small {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 3.2rem;
+    }
+
 }
 
 
@@ -168,13 +213,84 @@
         height: 200px; 
         width: 300px;
       }
+
+    .our-clients {
+        font-size: 3.5rem;
+    }
+
+    .call-to-action {
+        font-size: 2.5rem;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+    .home-main-contact-us {
+        margin-top: -20px;
+    }  
+    
+    .container-small {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 3.2rem;
+    }
     
 }
 
 
+@media screen and (min-width: 1200px) and (max-width: 1699px) {
+    
+    
+    .container-center {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 3.2rem;
+    }
+    
+    .card {
+        width: 100%;
+        padding: 0;
+    }
 
-@media screen and (min-width: 1200px) and (max-width: 1800px) {
+
     .main-slogan {
+        font-size: 2.2rem;
+    }
+
+    .home-main-contact-us {
+        margin-bottom: 100px;
+        margin-top: 200px;
+    }
+    
+    
+    .construction-projects img {
+      height: 220px; 
+      width: 380px;
+    }
+
+    .our-clients {
+        margin-top: 10rem;
         font-size: 3.5rem;
     }
+
+    .call-to-action {
+        font-size: 2rem;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+    
+    .container-small {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 3.2rem;
+    }
+}
+
+
+@media screen and (min-width: 1700px) and (max-width: 2400px) {
+    .main-slogan {
+        font-size: 2.5rem;
+    }
+
+    
 }
