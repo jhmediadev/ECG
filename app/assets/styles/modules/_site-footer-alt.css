@@ -1,0 +1,126 @@
+Footer Styles
+.footer {
+    background-color: #ffffff;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Grid Layout for Desktop */
+  .footer .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns on desktop */
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Footer Logo */
+  .footer-logo img {
+    width: 200px;
+  }
+  
+  /* Footer Links */
+  .footer-box {
+  }
+  
+  .footer-box p {
+    font-weight: bold;
+    margin-bottom: 10px;
+;
+  }
+  
+  .footer-link-title {
+    position: relative;
+    left: 20px;
+  }
+
+  .footer-link-list ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .footer-link-list li {
+    margin: 10px 0;
+  }
+  
+  .footer-link-color {
+    color: #b7d4f1;
+    text-decoration: none;
+  }
+
+  .footer-link-list:hover {
+    cursor: pointer;
+    color: var(--color-primary);
+    transition: .3s ease-in;
+  }
+  
+  .footer-link-color:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Media Icons */
+  .footer-box2 {
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: var(--color-primary);
+    margin: 0;
+    transition: 0.3s ease;
+  }
+  
+  .icon:hover {
+    background-color: #b7d4f1;
+    color: #1a1a1a;
+  }
+  
+  /* Contact Section */
+  .footer div:last-child {
+    text-align: center;
+  }
+  
+  .footer div:last-child p {
+    margin: 5px 0;
+  }
+  
+  .footer div:last-child a {
+    color: #b7d4f1;
+    text-decoration: none;
+  }
+  
+  .footer div:last-child a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Copyright */
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    font-size: 14px;
+  }
+  
+  /* ✅ Responsive Design: Mobile (Stacked Layout) */
+  @media (max-width: 768px) {
+    .footer .grid {
+      grid-template-columns: 1fr; /* Stack everything in 1 column */
+      text-align: center;
+    }
+  
+    .footer-box,
+    .footer-box2,
+    .footer div:last-child {
+      text-align: center;
+    }
+  
+    .footer-logo img {
+      margin-bottom: 20px;
+    }
+  }
+  

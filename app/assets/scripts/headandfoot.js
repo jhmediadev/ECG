@@ -50,14 +50,15 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <footer class="footer">
-      <div class="grid grid--1x4">
-        <a href="/"><img src="../../images/EclipseLogo.png"></a>
+      <div class="grid grid--1x4 grid--1x3">
+        <a href="/" class="footer-logo"><img src="../../images/EclipseLogo.png"></a>
 
+      
         <div class="footer-box">
           <div class="footer-link-list">  
             <ul>  
-              <p class="">LINKS</p>
-              <li><a class="footer-link-color" href="#">About Us</a></li>
+              <p class="footer-link-title">LINKS</p>
+              <li><a class="footer-link-color href="#">About Us</a></li>
               <li><a class="footer-link-color href="#">Portfolio</a></li>
               <li><a class="footer-link-color href="#">Our Process</a></li>
               <li><a class="footer-link-color href="#">Contact Us</a></li>
@@ -65,14 +66,14 @@ class Footer extends HTMLElement {
             </ul>
           </div>
         </div>    
-        <div>
+        <div class="footer-box-social">
             <p>CONNECT WITH US ON SOCIAL MEDIA</p>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook icon" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px"></i></a>
-            <a href="https://x.com/?lang=en" target="_blank"><i class="fa-brands fa-x-twitter icon" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px"></i></a>
-            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin icon" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook icon" ></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon" "></i></a>
+            <a href="https://x.com/?lang=en" target="_blank"><i class="fa-brands fa-x-twitter icon" ></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin icon" ></i></a>
         </div>
-        <div>
+        <div class="footer-box-contact">
             <p>CONTACT</p>
             <p><i class="fa-solid fa-phone" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px; margin-bottom: 20px"></i></p>
             <p><a href="tel:407-555-5555">407-555-5555</a></p>
