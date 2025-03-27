@@ -49,6 +49,11 @@ li {
   box-sizing: border-box;
 }
 
+.paragraph {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
 .horizontal-margin {
   margin: 2rem auto 2rem auto;
 }
@@ -71,6 +76,10 @@ li {
 
 .section-vertical-margin {
   margin: 0 2rem 0 2rem;
+}
+
+.container-left {
+  text-align: left;
 }
 
 .container-center {

@@ -5,10 +5,19 @@
     padding: 2.4rem;
   }
   
-  
-  .card__text {
+.card__text {
     text-align: center;
     line-height: 2.5rem;
-  }
+ }
 
-   
+.partner-card {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-body);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 10rem;
+}
