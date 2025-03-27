@@ -28,7 +28,7 @@ class Header extends HTMLElement {
                             </ul>
                     </div>   
                 <li class="nav__item"><a href="#">PORTFOLIO</a></li>
-                <li class="nav__item"><a href="#">ABOUT</a></li>
+                <li class="nav__item"><a href="../../pages/about.html">ABOUT</a></li>
                 <li class="nav__item"><a href="#">CONTACT US</a></li>
                 <li class="nav__item"><a href="#">CAREERS</a></li>
             </ul>
@@ -68,9 +68,9 @@ class Footer extends HTMLElement {
         </div>    
         <div class="footer-box-social">
             <p>CONNECT WITH US ON SOCIAL MEDIA</p>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook icon" ></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon" "></i></a>
-            <a href="https://x.com/?lang=en" target="_blank"><i class="fa-brands fa-x-twitter icon" ></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook icon"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon"></i></a>
+            <a href="https://x.com/?lang=en" target="_blank"><i class="fa-brands fa-x-twitter icon"></i></a>
             <a href="https://www.linkedin.com/"><i class="fab fa-linkedin icon" ></i></a>
         </div>
         <div class="footer-box-contact">
