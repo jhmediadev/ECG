@@ -1,18 +1,4 @@
-.page-header-title {
-  border: 1px solid var(--color-primary);
-  border-radius: 0.8rem;
-  color: var(--color-primary);
-  font-weight: 100;
-  margin-bottom: 10rem;
-  padding: 1rem;
-  width: 20%;
-}
 
-/* .partner-info {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 60rem 0 60rem;
-} */
 
 .partner-info {
     margin: 0 10rem 0 10rem;
@@ -21,4 +7,120 @@
 .partner-name {
     font-size: 4rem;
     font-weight: 100;
+    margin-bottom: 1rem;
 }
+
+.mission-statement {
+
+    margin: 10rem 20rem 20rem 20rem;
+}
+
+
+@media screen and (min-width: 50px) and (max-width: 389px) {
+
+    .partner-info h1 {
+        margin-top: 3rem;
+    }
+    
+    .partner-name {
+        font-size: 3rem;
+    }
+
+    .page-header-title {
+        font-size: 2.5rem;
+        width: 80%;
+    }
+
+    .partner-array {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 5rem 0 0 1.6rem;
+    }
+    .collage {
+       text-align: center;
+    }
+
+    .collage img {
+        height: 300px;
+        width: 320px;
+    }
+ 
+    /* .partner-container-center {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .section-horizontal-margin {
+        margin: 10rem auto 5rem auto;
+    } */
+
+    .mission-statement {
+        margin: 10rem auto 5rem auto;
+        padding: 0;
+    }
+
+    .mission-statement p {
+        font-size: 2rem;
+    }
+
+    .mission-statement h1{
+        margin: 0 0 3rem 0;
+    }
+
+    .partner-card img {
+        height: 460px;
+        width: 350px;
+    }
+
+    .partner-info {
+        margin: 0 2rem 0 2rem;
+    }
+
+    .partner-info h1 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem 0 3rem 0;
+    }
+
+    .partner-info p {
+        margin: 2rem 0 2rem 0;
+    }
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 700px) {
+    /* .main-container h1 {
+        font-size: 2.5rem;
+        width: 60%;
+    } */
+
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 820px) {
+    /* .main-container h1 {
+        font-size: 2.5rem;
+        width: 60%;
+    } */
+
+
+}
+
+@media screen and (min-width: 821px) and (max-width: 1024px) {
+    /* .main-container h1 {
+        font-size: 4.5rem;
+        width: 50%;
+    } */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+    /* .main-container h1 {
+        font-size: 3.5rem;
+        width: 50%;
+    } */
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1699px) {}
+
+@media screen and (min-width: 1700px) and (max-width: 2400px) {}

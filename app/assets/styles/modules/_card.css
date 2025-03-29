@@ -21,3 +21,27 @@
     overflow: hidden;
     margin-bottom: 10rem;
 }
+
+@media screen and (min-width: 50px) and (max-width: 389px) {}
+
+@media screen and (min-width: 390px) and (max-width: 700px) {}
+
+@media screen and (min-width: 701px) and (max-width: 820px) {}
+
+@media screen and (min-width: 821px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) {}
+
+@media screen and (min-width: 1200px) and (max-width: 1699px) {
+  /* .partner-card {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-body);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    overflow: hidden;
+} */
+}
+
+@media screen and (min-width: 1700px) and (max-width: 2400px) {}
