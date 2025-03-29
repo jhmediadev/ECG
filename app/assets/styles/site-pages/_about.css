@@ -11,7 +11,6 @@
 }
 
 .mission-statement {
-
     margin: 10rem 20rem 20rem 20rem;
 }
 
@@ -25,36 +24,31 @@
     .partner-name {
         font-size: 3rem;
     }
-
+    
     .page-header-title {
         font-size: 2.5rem;
         width: 80%;
     }
 
+    .partner-card img {
+        height: 460px;
+        width: 350px;
+    }
+    
     .partner-array {
         display: flex;
         flex-direction: column;
         gap: 1rem;
         margin: 5rem 0 0 1.6rem;
     }
-    .collage {
-       text-align: center;
-    }
+
 
     .collage img {
+        text-align: center;
         height: 300px;
         width: 320px;
     }
  
-    /* .partner-container-center {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .section-horizontal-margin {
-        margin: 10rem auto 5rem auto;
-    } */
 
     .mission-statement {
         margin: 10rem auto 5rem auto;
@@ -69,10 +63,6 @@
         margin: 0 0 3rem 0;
     }
 
-    .partner-card img {
-        height: 460px;
-        width: 350px;
-    }
 
     .partner-info {
         margin: 0 2rem 0 2rem;
@@ -90,35 +80,54 @@
 }
 
 @media screen and (min-width: 390px) and (max-width: 700px) {
-    /* .main-container h1 {
-        font-size: 2.5rem;
-        width: 60%;
-    } */
-
 
 }
 
 @media screen and (min-width: 701px) and (max-width: 820px) {
-    /* .main-container h1 {
-        font-size: 2.5rem;
-        width: 60%;
-    } */
 
+    .partner-card img {
+        height: 460px;
+        width: 350px;
+    }
 
+    .collage img {
+        text-align: center;
+        height: 400px;
+        width: 520px;
+    }
+
+    .mission-statement {
+        margin: 10rem auto 5rem auto;
+        padding: 0;
+    }
+
+    .mission-statement p {
+        font-size: 2rem;
+    }
+
+    .mission-statement h1{
+        margin: 0 0 3rem 0;
+    }
 }
 
 @media screen and (min-width: 821px) and (max-width: 1024px) {
-    /* .main-container h1 {
-        font-size: 4.5rem;
-        width: 50%;
-    } */
+
+    .mission-statement {
+        margin: 10rem auto 5rem auto;
+        padding: 0;
+    }
+
+    .mission-statement p {
+        font-size: 2rem;
+    }
+
+    .mission-statement h1{
+        margin: 0 0 3rem 0;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1199px) {
-    /* .main-container h1 {
-        font-size: 3.5rem;
-        width: 50%;
-    } */
+
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1699px) {}
