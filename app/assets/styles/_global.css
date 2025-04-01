@@ -56,6 +56,14 @@ li {
   line-height: 1.5;
 }
 
+.paragraph-left {
+ text-align: left;
+}
+
+.narrow-paragraph {
+  margin: 0 6rem 10rem 10rem;
+}
+
 .horizontal-margin {
   margin: 2rem auto 2rem auto;
 }
@@ -168,6 +176,11 @@ li {
     width: 80%;
   }
 
+  .paragraph {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -185,6 +198,11 @@ li {
     margin-bottom: 10rem;
     padding: 0;
     width: 100%;
+  }
+
+  .paragraph {
+    font-size: 2rem;
+    line-height: 1.5;
   }
 
 }

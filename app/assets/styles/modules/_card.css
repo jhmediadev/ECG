@@ -10,7 +10,21 @@
     line-height: 2.5rem;
  }
 
+
+
 .partner-card {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-body);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 10rem;
+}
+
+.service-card {
     display: flex;
     align-items: center;
     background-color: var(--color-body);
@@ -33,15 +47,10 @@
 @media screen and (min-width: 1025px) and (max-width: 1199px) {}
 
 @media screen and (min-width: 1200px) and (max-width: 1699px) {
-  /* .partner-card {
-    display: flex;
-    align-items: center;
-    background-color: var(--color-body);
-    border-radius: var(--border-radius);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    overflow: hidden;
-} */
+
+
 }
 
-@media screen and (min-width: 1700px) and (max-width: 2400px) {}
+@media screen and (min-width: 1700px) and (max-width: 2400px) {
+
+}
