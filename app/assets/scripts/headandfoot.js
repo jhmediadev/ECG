@@ -19,12 +19,13 @@ class Header extends HTMLElement {
                     <div class="dropmenu">
                         <a class="list nav__item nav__item__services dropmenu" href="../../pages/services.html">SERVICES</a>
                             <ul class="dropcontent">
-                                <a href="#">DESIGN</a>
-                                <a href="#">INDUSTRIAL BUILDINGS</a>
-                                <a href="#">OFFICE BUILDINGS</a>
-                                <a href="#">OFFICE BUILD OUTS</a>
-                                <a href="#">RETAIL / STRIP CENTERS</a>
-                                <a href="#">RESIDENTIAL PROJECTS</a>
+                                <a href="../../pages/services.html">OUR SERVICES</a>
+                                <a href="../../pages/services.html#drop01">DESIGN</a>
+                                <a href="../../pages/services.html#drop02">INDUSTRIAL BUILDINGS</a>
+                                <a href="../../pages/services.html#drop03">OFFICE BUILDINGS</a>
+                                <a href="../../pages/services.html#drop04">OFFICE BUILD OUTS</a>
+                                <a href="../../pages/services.html#drop05">RETAIL / STRIP CENTERS</a>
+                                <a href="../../pages/services.html#drop06"">RESIDENTIAL PROJECTS</a>
                             </ul>
                     </div>   
                 <li class="nav__item"><a href="#">PORTFOLIO</a></li>
