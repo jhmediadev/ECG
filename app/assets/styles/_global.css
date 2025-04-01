@@ -164,7 +164,6 @@ li {
   }
 
 
-
   .paragraph {
     font-size: 2rem;
     line-height: 1.5;
@@ -178,6 +177,9 @@ li {
     width: 100%;
   }
 
+  .construction-projects h1 {
+    font-size: 5rem;
+  }
 
 
 }
