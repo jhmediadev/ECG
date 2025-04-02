@@ -60,6 +60,10 @@ li {
  text-align: left;
 }
 
+.paragraph-top {
+  margin-top: -10rem;
+}
+
 .narrow-paragraph {
   margin: 0 6rem 10rem 10rem;
 }
@@ -79,6 +83,10 @@ li {
 
 .margin-bottom {
   margin-bottom: 10rem;
+}
+
+.small-left-margin {
+  margin-left: 4rem;
 }
 
 .section-horizontal-margin {
@@ -126,19 +134,13 @@ li {
 
 
 
-
-
-
-
 @media screen and (max-width: 410px) {
   .main-container {
     margin: 20px 5px 0 5px;
     width: 100%;
   }
 
-
 }
-
 
 
 
@@ -181,6 +183,9 @@ li {
     font-size: 5rem;
   }
 
+  .small-left-margin {
+    margin-left: 80rem;
+  }
 
 }
 

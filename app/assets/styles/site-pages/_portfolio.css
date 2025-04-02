@@ -1,4 +1,4 @@
-.service-header-title {
+.portfolio-header-title {
     border: 1px solid var(--color-primary);
     border-radius: 0.8rem;
     color: var(--color-primary);
@@ -9,7 +9,7 @@
     width: 30%;
 }
 
-.service-title {
+.portfolio-title {
     font-size: 3rem;
     font-weight: 900;
     margin: 10rem 0 2rem 0;
@@ -18,7 +18,7 @@
 
 @media screen and (min-width: 50px) and (max-width: 388px) {
 
-    .service-header-title {
+    .portfolio-header-title {
         border: 1px solid var(--color-primary);
         border-radius: 0.8rem;
         color: var(--color-primary);
@@ -29,13 +29,13 @@
         width: 80%;
     }
 
-    .service-img {
+    .portfolio-img {
         height: 200px;
         width: 350px;
         margin-left: 1rem;
     }
 
-    .service-title {
+    .portfolio-title {
         font-size: 3rem;
         font-weight: 900;
         margin: 1rem 0 2rem 0;
@@ -53,7 +53,7 @@
 
 @media screen and (min-width: 390px) and (max-width: 700px) {
 
-    .service-header-title {
+    .portfolio-header-title {
         border: 1px solid var(--color-primary);
         border-radius: 0.8rem;
         color: var(--color-primary);
@@ -64,13 +64,13 @@
         width: 100%;
     }
 
-    .service-img {
+    .portfolio-img {
         height: 600px;
         width: 850px;
         margin-left: 1rem;
     }
 
-    .service-title {
+    .portfolio-title {
         font-size: 3rem;
         font-weight: 900;
         margin: 1rem 0 2rem 0;
@@ -86,7 +86,7 @@
 
 @media screen and (min-width: 701px) and (max-width: 799px) {
 
-    .service-header-title {
+    .portfolio-header-title {
         border: 1px solid var(--color-primary);
         border-radius: 0.8rem;
         color: var(--color-primary);
@@ -97,14 +97,14 @@
         width: 70%;
     }
 
-    .service-img {
+    .portfolio-img {
         height: 600px;
         width: 850px;
         margin-left: 1rem;
     }
 
 
-    .service-title {
+    .portfolio-title {
         font-size: 3rem;
         font-weight: 900;
         margin: 1rem 0 2rem 0;
@@ -120,7 +120,7 @@
 
 @media screen and (min-width: 800px) and (max-width: 1199px) {
 
-    .service-header-title {
+    .portfolio-header-title {
         border: 1px solid var(--color-primary);
         border-radius: 0.8rem;
         color: var(--color-primary);
@@ -131,7 +131,7 @@
         width: 70%;
     }
 
-    .service-img {
+    .portfolio-img {
         height: 600px;
         width: 850px;
         margin-left: 1rem;
@@ -140,7 +140,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1699px) {
 
-    .service-header-title {
+    .portfolio-header-title {
         border: 1px solid var(--color-primary);
         border-radius: 0.8rem;
         color: var(--color-primary);
@@ -148,10 +148,10 @@
         font-size: 4.2rem;
         margin-bottom: 10rem;
         padding: 1rem;
-        width: 40%;
+        width: 30%;
     }
 
-    .service-img {
+    .portfolio-img {
         height: 250px;
         width: 450px;
         margin-left: 1rem;
@@ -160,7 +160,7 @@
 
 @media screen and (min-width: 1700px) and (max-width: 2999px) {
 
-    .service-header-title {
+    .portfolio-header-title {
         border: 1px solid var(--color-primary);
         border-radius: 0.8rem;
         color: var(--color-primary);
@@ -168,13 +168,26 @@
         font-size: 4.2rem;
         margin-bottom: 10rem;
         padding: 1rem;
-        width: 35%;
+        width: 30%;
     }
 
-    .service-img {
+    .portfolio-img {
         height: 300px;
         width: 450px;
         margin-left: 1rem;
     }
 }
 
+@media screen and (min-width: 1700px) and (max-width: 2400px) {
+
+    .portfolio-header-title {
+        border: 1px solid var(--color-primary);
+        border-radius: 0.8rem;
+        color: var(--color-primary);
+        font-weight: 100;
+        font-size: 4.2rem;
+        margin-bottom: 10rem;
+        padding: 1rem;
+        width: 30%;
+    }
+}

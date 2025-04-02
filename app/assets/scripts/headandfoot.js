@@ -28,7 +28,7 @@ class Header extends HTMLElement {
                                 <a href="../../pages/services.html#drop06"">RESIDENTIAL PROJECTS</a>
                             </ul>
                     </div>   
-                <li class="nav__item"><a href="#">PORTFOLIO</a></li>
+                <li class="nav__item"><a href="../../pages/portfolio.html">PORTFOLIO</a></li>
                 <li class="nav__item"><a href="../../pages/about.html">ABOUT</a></li>
                 <li class="nav__item"><a href="#">CONTACT US</a></li>
                 <li class="nav__item"><a href="#">CAREERS</a></li>

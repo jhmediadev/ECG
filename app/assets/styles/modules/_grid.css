@@ -8,6 +8,11 @@
     grid-template-columns: repeat(2, 1fr); 
     gap: 2rem;
   }
+
+  .grid--1x2-card {
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: space-between;
+  }
   
   .grid--1x3 {
     grid-template-columns: repeat(3, 1fr);  
