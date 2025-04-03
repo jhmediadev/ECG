@@ -132,6 +132,13 @@ li {
   width: 100%;
 }
 
+.item-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
 
 
 @media screen and (max-width: 410px) {
@@ -194,7 +201,7 @@ li {
 
 @media screen and (max-width: 1800px) {
   .main-container {
-    margin: 10px 5px 0 5px;
+    margin: 10px 5px 0 10px;
     width: 100%;
   }
 

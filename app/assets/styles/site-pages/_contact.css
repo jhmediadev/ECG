@@ -1,0 +1,20 @@
+.contact-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 5rem auto 2rem auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+.contact-img{
+    margin: 0 -10rem -10rem 0;
+    height: 890px;
+    width: 950px;
+    object-fit: cover;
+}
+
+.contact-card-center {
+    text-align: center;
+    margin: 0;
+}
