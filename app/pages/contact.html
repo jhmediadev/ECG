@@ -27,15 +27,41 @@
           <h2 class="container-main  portfolio-header-title">CONTACT US</h2>
           <hr style="border-color: dodgerblue; margin-left: -5px" />
         </div>
-        <section>
-          <div class="contact-card">
+        <section class="contact-section">
+          <div class="contact-card ">
             <div class="contact-card-center item-stack">
-              <h2 class="contact-title">Receive a project bid or assistance with starting a new project</h2>
+              <h1 class="contact-title">We Can Help </h1>
+              <p class="paragraph">
+                Send us a message and receive a bid or assistance with starting a new project.
               </p>
-            </div>
-            <img src="../images/contact-bkgd.png" alt="blueprint background" class="contact-img">
-          </div>
+              <img src="../images/contact-bkgd.png" alt="blueprint background" class="contact-img">
+              <form action="#" class="contact-form">
+                <label class="margin-top-small label" for="firstName">First Name</label>
+                <input type="text" name="firstName" required>
 
+                <label class="margin-top-small label" for="lastName">Last Name</label>
+                <input type="text" name="lastName" required>
+
+                <label class="margin-top-small label" for="email">Email</label>
+                <input type="email" name="email" required>
+
+                <label class="margin-top-small label" for="message">Your Message</label>
+                <textarea class="textarea " placeholder="Tell us something about your project." name="message" rows="4"
+                  cols="3" maxlength="1000" resize="none" required></textarea>
+
+                <label class="margin-top-small label" for="calendar">Approximate Project Start
+                  Date</label>
+                <input class="margin-bottom-small" type="date" name="calendar">
+
+                <button class=" margin-top-small">SEND</button>
+
+                <p class="margin-top-small">Please allow 1 to 2 days for a response.</p>
+              </form>
+            </div>
+          </div>
+          <div>
+            <img class="contact-img-headqtrs" src="../images/Headquarters.png" alt="">
+          </div>
         </section>
       </div>
   </div>

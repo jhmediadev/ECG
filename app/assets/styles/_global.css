@@ -81,8 +81,16 @@ li {
   margin-top: 20rem;
 }
 
+.margin-top-small {
+  margin-top: 3rem;
+}
+
 .margin-bottom {
   margin-bottom: 10rem;
+}
+
+.margin-bottom-small {
+  margin-bottom: 5rem;
 }
 
 .small-left-margin {
@@ -201,7 +209,7 @@ li {
 
 @media screen and (max-width: 1800px) {
   .main-container {
-    margin: 10px 5px 0 10px;
+    margin: 10px 5px 0 2px;
     width: 100%;
   }
 
