@@ -1,4 +1,4 @@
-.contact-title {
+/* .contact-title {
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 1.5;
@@ -78,7 +78,7 @@
     font-size: 1.5rem;
     margin: 2rem 0 0 0;
     text-decoration: solid underline;
-}
+} */
 
 
 @media screen and (min-width: 50px) and (max-width: 388px) {}
@@ -89,8 +89,173 @@
 
 @media screen and (min-width: 800px) and (max-width: 1199px) {}
 
-@media screen and (min-width: 1200px) and (max-width: 1699px) {}
+@media screen and (min-width: 1200px) and (max-width: 1699px) {
+    
+    .contact-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 5rem auto 2rem auto;
+    padding: 1rem;
+    width: 80%;
+    }
 
-@media screen and (min-width: 1700px) and (max-width: 2400px) {}
 
-@media screen and (min-width: 1700px) and (max-width: 2400px) {}
+    .contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    }
+
+
+    .contact-img {
+    margin: 0 -10rem -10rem -10rem;
+    height: 1090px;
+    width: 950px;
+    object-fit: cover;
+    }
+
+    .contact-img-headqtrs {
+    position: relative;
+    top: -45rem;
+    left: -12rem;
+    margin: 0 -10rem -10rem 0;
+    height: 400px;
+    width: 600px;
+    }
+
+    .contact-address-headqtrs {
+    position: relative;
+    top: -85rem;
+    right: -95rem;
+    margin: 3rem -1rem -20rem 0;
+    height: 400px;
+    width: 600px;
+    }
+
+
+    .contact-card-center {
+    text-align: center;
+    margin: 0;
+    }
+
+    .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90rem;
+    }
+
+    .label {
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: 600;
+    }
+
+    .textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    }
+
+    .privacy-policy {
+    font-size: 1.5rem;
+    margin: 2rem 0 0 0;
+    text-decoration: solid underline;
+    }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 2400px) {
+    .contact-title {
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.5;
+        margin: 5rem auto 2rem auto;
+        padding: 1rem;
+        width: 80%;
+    }
+    
+    
+    .contact-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto -20rem auto; 
+    }
+    
+    
+    .contact-img {
+        margin: 0 -10rem -10rem -10rem;
+        height: 1090px;
+        width: 950px;
+        object-fit: cover;
+    }
+    
+    .contact-img-headqtrs {
+        position: relative;
+        top: -45rem;
+        left: -12rem;
+        margin: 0 -10rem -10rem 0;
+        height: 400px;
+        width: 600px;
+    }
+    
+    .contact-address-headqtrs {
+        position: relative;
+        top: -85rem;
+        right: -118rem;
+        margin: 22rem -1rem -25rem 0;
+        height: 400px;
+        width: 600px;
+    }
+    
+    
+    .contact-card-center {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -90rem;
+    }
+    
+    .label {
+        color: var(--color-primary);
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    
+    .textarea {
+        resize: none;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease;
+      }
+    
+    .privacy-policy {
+        font-size: 1.5rem;
+        margin: 2rem 0 0 0;
+        text-decoration: solid underline;
+    }
+    
+}
+

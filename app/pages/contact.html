@@ -19,70 +19,67 @@
 </head>
 
 <body>
-  <div>
-    <main>
-      <main-header></main-header>
-      <div class="main-container">
-        <div class="main-header">
-          <h2 class="container-main  portfolio-header-title">CONTACT US</h2>
-          <hr style="border-color: dodgerblue; margin-left: -5px" />
+  <main>
+    <main-header></main-header>
+    <div class="main-container">
+      <div class="main-header">
+        <h2 class="container-main  portfolio-header-title">CONTACT US</h2>
+        <hr style="border-color: dodgerblue; margin-left: -5px" />
+      </div>
+      <section class="contact-section">
+        <div class="contact-card ">
+          <div class="contact-card-center item-stack">
+            <h1 class="contact-title">We Can Help </h1>
+            <p class="paragraph">
+              Send us a message and receive a bid or assistance with starting a new project.
+            </p>
+            <img src="../images/contact-bkgd.png" alt="blueprint background" class="contact-img">
+            <form action="#" class="contact-form">
+              <label class="margin-top-small label" for="firstName">First Name</label>
+              <input type="text" name="firstName" required>
+
+              <label class="margin-top-small label" for="lastName">Last Name</label>
+              <input type="text" name="lastName" required>
+
+              <label class="margin-top-small label" for="email">Email</label>
+              <input type="email" name="email" required>
+
+              <label class="margin-top-small label" for="message">Your Message</label>
+              <textarea class="textarea " placeholder="Tell us something about your project." name="message" rows="4"
+                cols="3" maxlength="1000" resize="none" required></textarea>
+
+              <label class="margin-top-small label" for="calendar">Approximate Project Start
+                Date</label>
+              <input class="margin-bottom-small" type="date" name="calendar">
+
+              <button class=" margin-top-small">SEND</button>
+
+              <p class="margin-top-small">Please allow 1 to 2 days for a response.</p>
+              <a class="privacy-policy" href="#">Your Privacy</a>
+            </form>
+          </div>
         </div>
-        <section class="contact-section">
-          <div class="contact-card ">
-            <div class="contact-card-center item-stack">
-              <h1 class="contact-title">We Can Help </h1>
-              <p class="paragraph">
-                Send us a message and receive a bid or assistance with starting a new project.
-              </p>
-              <img src="../images/contact-bkgd.png" alt="blueprint background" class="contact-img">
-              <form action="#" class="contact-form">
-                <label class="margin-top-small label" for="firstName">First Name</label>
-                <input type="text" name="firstName" required>
-
-                <label class="margin-top-small label" for="lastName">Last Name</label>
-                <input type="text" name="lastName" required>
-
-                <label class="margin-top-small label" for="email">Email</label>
-                <input type="email" name="email" required>
-
-                <label class="margin-top-small label" for="message">Your Message</label>
-                <textarea class="textarea " placeholder="Tell us something about your project." name="message" rows="4"
-                  cols="3" maxlength="1000" resize="none" required></textarea>
-
-                <label class="margin-top-small label" for="calendar">Approximate Project Start
-                  Date</label>
-                <input class="margin-bottom-small" type="date" name="calendar">
-
-                <button class=" margin-top-small">SEND</button>
-
-                <p class="margin-top-small">Please allow 1 to 2 days for a response.</p>
-                <a class="privacy-policy" href="#">Your Privacy</a>
-              </form>
-            </div>
-          </div>
-          <div>
-            <img class="contact-img-headqtrs" src="../images/Headquarters.png" alt="">
-          </div>
-        </section>
-        <div class="contact-address-headqtrs">
-          <h1>Call Us</h1>
-          <p>407-555-5555</p>
-          <br>
-          <h1>Our Address</h1>
-          <p class="">1801 Cook Avenue <br>
-            Orlando, FL 32806</p>
-          <div class="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2478.8182079764347!2d-81.37775770123375!3d28.522331771800665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77b0c18f7090b%3A0x368aa0cbc17b73b7!2s1801%20Cook%20Ave%2C%20Orlando%2C%20FL%2032806!5e0!3m2!1sen!2sus!4v1744135228292!5m2!1sen!2sus"
-              width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+        <div>
+          <img class="contact-img-headqtrs" src="../images/Headquarters.png" alt="">
+        </div>
+      </section>
+      <div class="contact-address-headqtrs">
+        <h1>Call Us</h1>
+        <p>407-555-5555</p>
+        <br>
+        <h1>Our Address</h1>
+        <p class="">1801 Cook Avenue <br>
+          Orlando, FL 32806</p>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2478.8182079764347!2d-81.37775770123375!3d28.522331771800665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77b0c18f7090b%3A0x368aa0cbc17b73b7!2s1801%20Cook%20Ave%2C%20Orlando%2C%20FL%2032806!5e0!3m2!1sen!2sus!4v1744135228292!5m2!1sen!2sus"
+            width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
-  </div>
-  </div>
-  <button id="myBtn" title="Go to top">TOP</button>
-  <main-footer></main-footer>
+    </div>
+    <button id="myBtn" title="Go to top">TOP</button>
+    <main-footer></main-footer>
   </main>
   </div>
   <script src="../bundled.js" defer></script>
