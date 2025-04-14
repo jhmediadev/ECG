@@ -1,4 +1,9 @@
-
+.contact-address-headqtrs h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 0;
+}
 
 
 @media screen and (min-width: 50px) and (max-width: 388px) {
@@ -466,10 +471,10 @@
         }
 
         .map {
-            height: 400px;
+            height: 450px;
             width: 600px;
             border: none;
-            margin: 0 auto;
+            margin: 5rem auto;
     }
 }
 
@@ -558,10 +563,10 @@
         }
 
         .map {
-            height: 400px;
+            height: 460px;
             width: 600px;
             border: none;
-            margin: 0 auto;
+            margin: 5rem auto;
         }
     
 }
