@@ -89,6 +89,10 @@ li {
   margin-bottom: 10rem;
 }
 
+.margin-bottom-large {
+  margin-bottom: 20rem;
+}
+
 .margin-bottom-small {
   margin-bottom: 5rem;
 }
@@ -178,10 +182,13 @@ li {
     width: 100%;
   }
 
-
   .paragraph {
     font-size: 2rem;
     line-height: 1.5;
+  }
+
+  .margin-bottom {
+    margin-bottom: 10rem;
   }
 
 }
@@ -205,6 +212,15 @@ li {
     margin-left: 80rem;
   }
 
+  .margin-bottom {
+    margin-bottom: 10rem;
+  }
+
+  .margin-bottom-small {
+    margin-bottom: 5rem;
+  }
+
+
 }
 
 @media screen and (max-width: 1800px) {
@@ -217,5 +233,14 @@ li {
     font-size: 2rem;
     line-height: 1.5;
   }
+
+  .margin-bottom {
+    margin-bottom: 10rem;
+  }
+
+  .margin-bottom-small {
+    margin-bottom: 5rem;
+  }
+
 
 }

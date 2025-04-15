@@ -165,5 +165,14 @@
       align-items: center;
       margin: 0 auto;
     } 
+
+    .grid--1x2-career {
+      display: flex;
+      gap: 8rem;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
   }
 

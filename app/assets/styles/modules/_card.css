@@ -74,6 +74,18 @@
     margin: 10rem 0 10rem 0;
 }
 
+.career-card {
+    display: inline;
+    align-items: center;
+    background-color: var(--color-body);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 10rem;
+    overflow: hidden;
+    margin-bottom: 10rem;
+}
+
 
 @media screen and (min-width: 50px) and (max-width: 389px) {
     
