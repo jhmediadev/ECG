@@ -98,7 +98,7 @@
         width: 90%;
         height: 120rem;
         overflow: hidden;
-        margin: 8rem 0 50rem 0;
+        margin: 8rem auto 50rem auto;
     }
 }
 

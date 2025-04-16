@@ -51,3 +51,18 @@
     background-color: var(--color-background-dark); 
   }
 
+  @media screen and (min-width: 50px) and (max-width: 388px) {
+
+ }
+
+  @media screen and (min-width: 390px) and (max-width: 700px) {}
+  
+  @media screen and (min-width: 701px) and (max-width: 799px) {}
+  
+  @media screen and (min-width: 800px) and (max-width: 1199px) {}
+  
+  @media screen and (min-width: 1200px) and (max-width: 1699px) {}
+  
+  @media screen and (min-width: 1700px) and (max-width: 2400px) {}
+  
+  @media screen and (min-width: 1700px) and (max-width: 2400px) {}
