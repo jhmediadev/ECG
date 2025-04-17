@@ -96,7 +96,7 @@
             height: 200px;
             width: 300px;
             border: none;
-            margin: 0 auto 4rem auto;
+            margin: 2rem auto 4rem auto;
         }
 
         .contact-phone-email {
@@ -196,7 +196,7 @@
             height: 300px;
             width: 500px;
             border: none;
-            margin: 0 auto;
+            margin: 2rem auto 5rem auto;
         }    
     }
     
@@ -291,7 +291,7 @@
             height: 300px;
             width: 500px;
             border: none;
-            margin: 0 auto;
+            margin: 2rem auto 5rem auto;
         }  
     }
     
@@ -386,7 +386,7 @@
             height: 400px;
             width: 600px;
             border: none;
-            margin: 0 auto;
+            margin: 2rem auto 5rem auto;
         }    
 }
 

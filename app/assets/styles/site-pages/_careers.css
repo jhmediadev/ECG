@@ -10,3 +10,8 @@
     color: var(--color-background);
     text-decoration: solid underline;
 }
+
+.career-bullet-list {
+    list-style-type: disc;
+    font-size: 1.7rem;
+}

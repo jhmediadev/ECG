@@ -38,6 +38,11 @@ body {
   width: 99%;
 }
 
+ul {
+  color: var(--color-primary);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
 li {
   color:black;
   font-size: 2rem;
