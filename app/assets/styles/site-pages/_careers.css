@@ -13,5 +13,36 @@
 
 .career-bullet-list {
     list-style-type: disc;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
+
+
+
+@media screen and (min-width: 50px) and (max-width: 388px) {
+    .career-details {
+        justify-content: left;
+        margin: 0 0 2rem 0;
+        padding: 0;
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 700px) {
+    .career-details {
+        justify-content: left;
+        margin: 0 0 2rem 0;
+        padding: 0;
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 799px) {}
+
+@media screen and (min-width: 800px) and (max-width: 1199px) {}
+
+@media screen and (min-width: 1200px) and (max-width: 1699px) {}
+
+@media screen and (min-width: 1700px) and (max-width: 2400px) {}
+
+@media screen and (min-width: 1700px) and (max-width: 2400px) {}
