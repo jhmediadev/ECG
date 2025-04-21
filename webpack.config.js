@@ -29,7 +29,10 @@ module.exports = {
         use: [
           'style-loader',
           { loader: 'css-loader', options: { url: false } },
-          { loader: 'postcss-loader', options: { postcssOptions: { plugins: postCSSPlugins } } },
+          {
+            loader: 'postcss-loader',
+            options: { postcssOptions: { plugins: postCSSPlugins } },
+          },
         ],
       },
     ],
