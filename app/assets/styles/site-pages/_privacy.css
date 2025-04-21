@@ -1,0 +1,8 @@
+ul.privacy-list li {
+    font-size: 1.8rem;
+}
+
+.privacy-bullet-list {
+    list-style-type: disc;
+    font-size: 1.7rem;
+}
