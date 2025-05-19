@@ -75,7 +75,7 @@ class Footer extends HTMLElement {
             <a href="https://www.linkedin.com/"><i class="fab fa-linkedin icon" ></i></a>
         </div>
         <div class="footer-box-contact">
-            <p>CONTACT</p>
+            <p class="footer-link-title">CONTACT</p>
             <p><i class="fa-solid fa-phone" style="border: solid 1px #b7d4f1; border-radius: 100px; padding: 20px; margin-bottom: 20px"></i></p>
             <p><a href="tel:407-555-5555">407-555-5555</a></p>
         </div>
