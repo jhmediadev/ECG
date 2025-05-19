@@ -59,6 +59,7 @@ class Footer extends HTMLElement {
           <div class="footer-link-list">  
             <ul>  
               <p class="footer-link-title">LINKS</p>
+              <li><a class="footer-link-color" href="/">Home</a></li>
               <li><a class="footer-link-color" href="../../pages/about.html">About Us</a></li>
               <li><a class="footer-link-color" href="../../pages/services.html">Our Services</a></li>
               <li><a class="footer-link-color" href="../../pages/portfolio.html">Portfolio</a></li>
