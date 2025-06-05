@@ -1,6 +1,7 @@
 .card {
     background-color: var(--color-body);
     border-radius: var(--border-radius);
+    border-top: 6px solid var(--color-border);
     box-shadow: var(--shadow-2);
     padding: 2.4rem;
   }
@@ -15,6 +16,8 @@
     display: flex;
     align-items: center;
     background-color: var(--color-body);
+    border: .5px solid #d1d1d1;
+    /* border-top: 4px solid var(--color-background); */
     border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -28,6 +31,7 @@
     display: flex;
     align-items: center;
     background-color: var(--color-body);
+    border-top: 6px solid var(--color-border);
     border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -41,6 +45,7 @@
     display: flex;
     align-items: center;
     background-color: var(--color-body);
+    border-top: 4px solid var(--color-border);
     border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -49,23 +54,25 @@
     margin-bottom: 10rem;
 }
 
-.portfolio-card {
+/* .portfolio-card {
     display: flex;
     align-items: center;
     background-color: var(--color-body);
+    border-top: 4px solid var(--color-background);
     border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
     padding: 20px;
     overflow: hidden;
     margin-bottom: 10rem;
-}
+} */
 
 
 .contact-card {
     display: flex;
     flex-direction: column;
     background-color: var(--color-body);
+    border-top: 6px solid var(--color-border);
     border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 50%;
@@ -78,6 +85,7 @@
     display: inline;
     align-items: center;
     background-color: var(--color-body);
+    border-top: 6px solid var(--color-border);
     border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;

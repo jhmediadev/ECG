@@ -523,8 +523,9 @@
             width: 950px;
             object-fit: cover;
         }
-    
+        
         .contact-img-headqtrs {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
             position: relative;
             top: -45rem;
             left: -12rem;
