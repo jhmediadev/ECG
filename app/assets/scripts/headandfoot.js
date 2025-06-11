@@ -83,7 +83,7 @@ class Footer extends HTMLElement {
         </div>
       </div>
       <div class="copyright">
-        <p>Copyright &copy; 2024 Eclipse Construction Group. All Rights Reserved.</p>
+        <p>Copyright &copy; 2023 Eclipse Construction Group. All Rights Reserved.</p>
       </div>
     </footer>
 
