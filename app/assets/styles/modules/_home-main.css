@@ -36,6 +36,12 @@
   width: 450px;
 }
 
+.testimonial {
+ margin: 10rem 11rem -4rem 11rem;
+ padding: 2rem 0 6rem 0;
+ background-color: var(--color-footer-background);
+}
+
 
 @media screen and (min-width: 50px) and (max-width: 389px) {
     
