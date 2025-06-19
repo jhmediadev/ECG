@@ -31,6 +31,12 @@
     text-transform: uppercase;
 }
 
+.small-button:hover {
+    background-color: var(--color-background-dark);
+    cursor: pointer;
+    transition: .5s;
+}
+
 #myBtn {
     display: none;
     position: fixed;
